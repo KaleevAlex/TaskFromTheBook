@@ -8,6 +8,7 @@ public class Task2_26 {
         int yearBirth = scanner.nextInt();
         int yearNow = scanner.nextInt();
         System.out.println("Мне " + (yearNow - yearBirth) + " лет");
+        System.out.println("////");
 
         System.out.println(yearsOld(yearBirth));
     }
